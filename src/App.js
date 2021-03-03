@@ -3,7 +3,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Navigation from './shared/navigation/Navigation';
 import Maze from './searching/Maze';
 import Sorting from './sorting/Sorting';
-import DefaultMaze from './DefaultMaze/DefaultMaze';
+import DefaultMaze from './defaultMaze/DefaultMaze';
 
 import './App.css';
 
