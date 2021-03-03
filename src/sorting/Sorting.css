@@ -1,0 +1,25 @@
+.sorting {
+    margin-top: 2rem;
+    margin-left: 9rem;
+}
+
+.bar {
+    display: inline-block;
+    margin: 0.2rem;
+    width: 15px;
+    outline: 2px solid green;
+    background-color: #f89b88;
+}
+
+@media (max-width: 768px){
+    .sorting {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    .bar {
+        margin: 0rem;
+        width: 3.5px;
+        height: calc(100% - 5rem);
+        outline: 1px solid green;
+    }
+}

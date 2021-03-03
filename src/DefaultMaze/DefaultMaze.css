@@ -1,0 +1,50 @@
+.default-maze {
+    display: inline-block;
+    margin-left: 19rem;
+}
+
+.title {
+    text-align: center;
+    color: #ec3b1c;
+    font-weight: bold;
+}
+
+.compo {
+    display: inline-block;
+    height: 15px;
+    width: 20px;
+    border: solid rgb(26, 11, 11) 1px;
+    background-color: #fcbaad;
+    border-radius: 15%;
+    vertical-align: top;
+    text-align: center;
+}
+
+.solve {
+    display: inline;
+    margin-left: 5rem;
+}
+
+.solve Button {
+    display: inline;
+}
+
+.solve p {
+    padding-left: 0.5rem;
+    display: inline;
+    color: #ec3b1c;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+    .default-maze {
+        margin-left: 0.5rem;
+    }
+
+    .compo {
+        width: 3.5px;
+        border: solid rgb(26, 11, 11) 0.1px;
+        border-radius: 0%;
+        margin-bottom: 0rem;
+    }
+}

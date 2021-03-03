@@ -1,0 +1,19 @@
+.app {
+    position: fixed;
+    box-shadow:
+    inset rgba(89, 24, 150, 0.849) 0 0 0 5px,
+    inset #912214 0 0 0 10px,
+    inset #ec3b1c 0 0 0 15px;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+@media (max-width: 768px){
+  .app {
+    font-size: 10px;
+    padding: 1.5rem 2rem 1.5rem 2rem;
+  }
+}

@@ -1,0 +1,61 @@
+.button {
+    background: rgb(166, 96, 168);
+    color: #912214;
+    width: auto;
+    height: 30px;
+    border-radius: 15%;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.button:hover,
+.button:active {
+    background: #912214;
+    color: rgb(166, 96, 168);
+}
+
+.button--reversed {
+    background: #ec3b1c;
+    color: #912214;
+}
+
+.button--reversed:hover,
+.button--reversed:active {
+    background: #912214;
+    color: #ec3b1c;
+}
+
+.button--danger {
+    background: #912214;
+    color: white;
+}
+
+.button--danger:hover,
+.button--danger:active {
+    background: white;
+    color: #912214
+}
+
+.button--disabled {
+    background: #d0b1da;
+    color: #d3c4d8;
+}
+
+.button--disabled:hover {
+    background: #d0b1da;
+    color: #d3c4d8;
+    cursor: not-allowed;
+}
+
+@media (max-width: 768px){
+    .button {
+        width: auto;
+        height: 7px;
+        border-radius: 10%;
+        font-size: 5px;
+        font-weight: normal;
+        padding: 0.2rem 0.2rem 1.3rem 0.2rem;
+    }
+}
